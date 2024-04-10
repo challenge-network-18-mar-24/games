@@ -11,11 +11,16 @@ const data = [
       codeUrl: "https://github.com/m-giulia/my-game.git"
     },
 
-    {
-      name: "My Game - AnaLitvi",
-      gameUrl: "",
-      codeUrl: "https://github.com/AnaLitvi/Ana_Litvi_Game.git"
-    },
+  {
+    name: "My Game - AnaLitvi",
+    gameUrl: "",
+    codeUrl: "https://github.com/AnaLitvi/Ana_Litvi_Game.git"
+  },
+  {
+    name: "My Game - Stefano",
+    gameUrl: "",
+    codeUrl: "https://github.com/stemart89/stefano-games.git"
+  },
 
     {
       name: "My Game - Leo",
@@ -35,10 +40,4 @@ const data = [
       codeUrl: "https://github.com/arshenAll/games.git"
     },
 
-	{
-		name: "My Game - Stefano",
-		gameUrl: "",
-		codeUrl: "https://github.com/stemart89/stefano-games.git"
-
-	},
 ]
