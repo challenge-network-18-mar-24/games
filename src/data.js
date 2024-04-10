@@ -20,4 +20,9 @@ const data = [
     gameUrl: "",
     codeUrl: "https://github.com/AnaLitvi/Ana_Litvi_Game.git"
   }
+,{
+  name: "My Game - Alessia",
+  gameUrl: "",
+  codeUrl: "https://github.com/arshenAll/games.git"
+}
 ]
