@@ -67,6 +67,21 @@ const data = [
     name: "My Game - Alessia",
     gameUrl: "",
     codeUrl: "https://github.com/arshenAll/games.git"
+<<<<<<< HEAD
   }
 >>>>>>> c007d0f (stefano (#3))
+=======
+  },
+    {
+		name: "My Game - Andrea",
+		gameUrl: "",
+		codeUrl: ""
+    },
+
+    {
+		name: "My Game - Leo",
+		gameUrl: "",
+		codeUrl: "https://github.com/leonardo-pesci/leo-games.git"
+    }
+>>>>>>> ba9283b (leo)
 ]
