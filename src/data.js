@@ -1,8 +1,9 @@
 const data = [
   {
-    name: "My Game - Andrea",
+    name: "My Game - Stefano",
     gameUrl: "",
-    codeUrl: ""
+    codeUrl: "https://github.com/stemart89/stefano-games.git"
+
   },
   {
     name: "My Game - Giulia",
@@ -12,6 +13,22 @@ const data = [
   {
     name: "My Game - Mila!",
     gameUrl: "",
-    codeUrl: "https://github.com/mila20242024/milagames"
+    codeUrl: "https://github.com/mila20242024/milagames"},
+  {
+    name: " My name = arnol ",
+    gameUrl: "",
+    codeUrl: "https://github.com/blonedl97/arnol.game"
+
+  },
+
+  {
+    name: "My Game - AnaLitvi",
+    gameUrl: "",
+    codeUrl: "https://github.com/AnaLitvi/Ana_Litvi_Game.git"
+  }, 
+  {
+    name: "My Game - Alessia",
+    gameUrl: "",
+    codeUrl: "https://github.com/arshenAll/games.git"
   }
 ]
