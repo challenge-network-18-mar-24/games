@@ -30,3 +30,12 @@ Se le due carte cliccate sono uguali, il click viene disabilitato su quelle cart
 
 BONUS: aumentare il numero di carte (a 16 ad esempio) e il numero di giocatori possibili per round
 
+## GIOCHI DIFFICILI
+
+### Digita veloce
+
+Il giocatore riceve una parola ed un input dove digitare quella parola. Avrà a disposizione un minuto per digitare piu parole possibili.
+
+BONUS: aumentare il numero di giocatori che si alternano ogni minuto e tenere il punteggio di ciascuno
+
+
