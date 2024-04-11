@@ -39,7 +39,7 @@ const data = [
   {
     name: "My Game - Sabrina",
     gameUrl: "",
-    codeUrl:"https://github.com/Sabbcorr/my-game-sab-cor"
+    codeUrl:"https://github.com/Sabbcorr/my-game-sab-cor.git"
 
   }
 
