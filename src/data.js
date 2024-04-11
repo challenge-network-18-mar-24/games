@@ -35,6 +35,12 @@ const data = [
     name: "My Game - Maria Pia",
     gameUrl: "",
     codeUrl: "https://github.com/mariapiastella/MariaPia-game"
+  },
+
+  {
+    name: "My Game - Angelica",
+    gameUrl: "",
+    codeUrl: "https://github.com/Angycapuozzo/angelica-game.git"
   }
 
 ]
