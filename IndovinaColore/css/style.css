@@ -1,0 +1,40 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 203, 153);
+}
+
+.container {
+    text-align: center;
+}
+
+.bungee-spice-regular {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+  }
+
+.pad_20 {
+    padding: 20px;
+}
+
+.button-dim {
+    padding: 20px;
+    margin: 4px;
+    border-radius: 10px;
+    background-color: rgb(233, 231, 227);
+    border-color: black;
+}
+
+
+.pixelify-sans-button {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
