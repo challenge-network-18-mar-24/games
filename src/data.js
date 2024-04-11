@@ -32,6 +32,12 @@ const data = [
     codeUrl: "https://github.com/arshenAll/games.git"
   },
   {
+
+    name: "My Game - Francesco",
+    gameUrl: "",
+    codeUrl: "https://github.com/GalloFrancesco01/game.git"
+  },
+  {
     name: "My Game - Maria Pia",
     gameUrl: "",
     codeUrl: "https://github.com/mariapiastella/MariaPia-game"
@@ -40,6 +46,7 @@ const data = [
     name: "My Game - Sofia",
     gameUrl: "",
     codeUrl: "https://github.com/SofiaAbou/game.git"
+
   }
 
 ]
