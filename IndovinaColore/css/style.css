@@ -1,4 +1,4 @@
-body, html {
+body {
     height: 100%;
     margin: 0;
     display: flex;
@@ -38,3 +38,32 @@ body, html {
   font-style: normal;
   font-size: 40px;
 }
+
+.scoreboard{
+    position: flex;
+    justify-content: center;
+    padding: 20px;
+    margin 4px;
+    border-radius: 10px;
+}
+
+.cont_btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-part-dim{
+    padding: 10px;
+    margin: 4px;
+    border-radius: 10px;
+    background-color: rgb(227, 102, 24);
+    border-color: black;
+}
+
+.pixelify-sans-button-xs {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+  }

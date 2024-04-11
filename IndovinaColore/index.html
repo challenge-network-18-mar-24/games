@@ -21,8 +21,33 @@
     <div class="container">
         <h1 class="bungee-spice-regular pad_20">Indovina il colore!</h1>
         <div>
-            <button class=" pixelify-sans-button button-dim">Gioca ora!</button>
+            <button id="cambiaColoreBtn" class="pixelify-sans-button button-dim">Cambio colore! Voglio il...</button>
         </div>
+    </div>
+
+
+    <div class="scoreboard">
+        <h3 id="partecipants" class="pixelify-sans-button button-dim">Numero giocatori:</h3><br>
+        <div class="cont_btn">
+        <input class="button-part-dim pixelify-sans-button-xs button-dim" type="number" id="participants" min="1" value="1"><br>
+        <input class="button-part-dim pixelify-sans-button-xs button-dim" type="text" id="titleInput" placeholder="Partecipante 1"><br>
+        <input class="button-part-dim pixelify-sans-button-xs button-dim" type="text" id="titleInput" placeholder="Partecipante 2"><br>
+        <button class="button-part-dim pixelify-sans-button-xs button-dim" id="startGameBtn">Start Game</button>
+        </div>
+
+        <div>
+            <h4 class="pixelify-sans-button-xs">Score</h4>
+            <input class="button-part-dim pixelify-sans-button-xs button-dim" type="number" id="counterPointsParticipants" min="1" value="1"><br>
+        </div>
+
+        <div>
+            <h3>TIMER</h3><br>
+            <h1></h1><br>
+            <button onclick="riduciNumero()">Avvia il tempo</button>
+
+        </div>
+        
+    
     </div>
 
     <script src="./src/index.js"></script>
