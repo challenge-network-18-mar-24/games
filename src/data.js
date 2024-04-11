@@ -14,7 +14,8 @@ const data = [
   {
     name: "My Game - Mila!",
     gameUrl: "",
-    codeUrl: "https://github.com/mila20242024/milagames"},
+    codeUrl: "https://github.com/mila20242024/milagames"
+  },
   {
     name: " My name = arnol ",
     gameUrl: "",
@@ -26,7 +27,7 @@ const data = [
     name: "My Game - AnaLitvi",
     gameUrl: "",
     codeUrl: "https://github.com/AnaLitvi/Ana_Litvi_Game.git"
-  }, 
+  },
   {
     name: "My Game - Alessia",
     gameUrl: "",
@@ -47,23 +48,34 @@ const data = [
   {
     name: "My Game - Sabrina",
     gameUrl: "",
-    codeUrl:"https://github.com/Sabbcorr/my-game-sab-cor.git"
+    codeUrl: "https://github.com/Sabbcorr/my-game-sab-cor.git"
 
   },
   {
-	  name: "My Game - Leo",
-	  gameUrl: "",
-	  codeUrl:"https://github.com/leonardo-pesci/leo-games.git"
-  
-	},
+
+    name: "My Game - Leo",
+    gameUrl: "",
+    codeUrl: "https://github.com/leonardo-pesci/leo-games.git"
+
+  },
+  {
+
+    name: "My Game - Sofia",
+    gameUrl: "",
+    codeUrl: "https://github.com/SofiaAbou/game.git"
+
+  },
+
+
   {
     name: "My Game - Carmela",
     gameUrl: "",
-    codeUrl:"https://github.com/carmela-scarda/-un-giocoo.git"
+    codeUrl: "https://github.com/carmela-scarda/-un-giocoo.git"
 
   },
 
 
 ]
 
-	
+
+
