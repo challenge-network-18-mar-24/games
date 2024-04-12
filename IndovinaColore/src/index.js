@@ -28,7 +28,7 @@
       }
   }
   
-  let intervallo = setInterval(riduciNumero, 1000)
+  let intervallo = setInterval(riduciNumero, 100)
   
   
   
