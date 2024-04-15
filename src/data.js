@@ -89,10 +89,8 @@ const data = [
     codeUrl: "https://github.com/Macrifabrizio99/My-game.git"
   },
   {
-    name: "My Game - Attilio",
+    name: "My Game - Fabrizio",
     gameUrl: "",
     codeUrl: "https://github.com/Ferro-coding/ferro-game"
-  }
+  },
 ]
-
-
