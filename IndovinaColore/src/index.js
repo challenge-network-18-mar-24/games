@@ -1,5 +1,4 @@
- const container = document.getElementById('cambiaColoreBtn').addEventListener('click',
-    function() {
+ const container = document.getElementById('cambiaColoreBtn').addEventListener('click', function() {
     // Genera un colore casuale in formato RGB
     let coloreRandom = `rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)})`;
     // I valori vengono quindi interpolati all'interno della stringa di formato RGB usando ${...}.
@@ -8,7 +7,4 @@
     document.body.style.backgroundColor = coloreRandom;
   });
 
-  document.getElementById('startGameBtn').addEventListener('click', function() {
-    let participants = document.getElementById('participants').value;
-    // Implement game logic here
-  });
+ 

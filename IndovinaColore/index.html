@@ -18,39 +18,26 @@
 
 </head>
 <body>
-    <div class="container">
+    <div>
         <h1 class="bungee-spice-regular pad_20">Indovina il colore!</h1>
-        <div>
+        <div class="container p_100">
             <button id="cambiaColoreBtn" class="pixelify-sans-button button-dim">Cambio colore! Voglio il...</button>
         </div>
     </div>
 
+    <form id="formPartecipanti">
+        <label for="numeroPartecipanti">Seleziona il numero di partecipanti:</label>
+        <input type="number" id="numeroPartecipanti" min="1" max="5" required>
+        <button type="submit">Inizia Gioco</button>
+    </form>
 
-    <div class="scoreboard">
-        <h3 id="partecipants" class="pixelify-sans-button button-dim">Numero giocatori:</h3><br>
-        <div class="cont_btn">
-        <input class="button-part-dim pixelify-sans-button-xs button-dim" type="number" id="participants" min="1" value="1"><br>
-        <input class="button-part-dim pixelify-sans-button-xs button-dim" type="text" id="titleInput" placeholder="Partecipante 1"><br>
-        <input class="button-part-dim pixelify-sans-button-xs button-dim" type="text" id="titleInput" placeholder="Partecipante 2"><br>
-        <button class="button-part-dim pixelify-sans-button-xs button-dim" id="startGameBtn">Registra</button>
-        </div>
-
-        <div>
-            <h4 class="pixelify-sans-button-xs">Score</h4>
-            <input class="button-part-dim pixelify-sans-button-xs button-dim" type="number" id="counterPointsParticipants" min="1" value="1"><br>
-        </div>
-
-        <div>
-            <h3 class="pixelify-sans-button">TIMER:</h3>
-            <h1 id="numero" class="pixelify-sans-button"></h1>
-            <button id="setTimer"class="pixelify-sans-button-xs button-dim">Avvia il tempo</button>
-
-        </div>
-        
-    
-    </div>
+    <form id="formPointsPartecipanti">
+        <label for="punteggi">Registra qui il punteggio</label>
+        <input type="number" id="punteggi" min="1" max="30" required>
+        <button type="submit">Segna</button>
+    </form>
 
     <script src="./src/index.js"></script>
-    <script src="./src/setTimer"></script>
+    <script src="./src/partecipanti.js"></script>
 </body>
 </html>
