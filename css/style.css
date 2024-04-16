@@ -1,4 +1,54 @@
+:root {
+	--color-primary: #F5A303;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+
+	font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+
+	color: var(--color-primary);
+	font-size: 21px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	color: var(--color-primary);
+	text-decoration: none;
+}
+
 #container {
 	display: flex;
-	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	justify-items: center;
+	gap: 200px;
+	height: 100vh;
+	background-image: url("https://images.template.net/106042/free-retro-arcade-gaming-background-kuipq.png");
+	background-size: cover;
+	padding-left: 500px;
+}
+
+#carousel {
+	display: flex;
+	font-size: 3rem;
+	width: 50%;
+	text-align: center;
+	justify-content: center;
+}
+
+.button {
+	font-size: 4rem;
+	background-color: transparent;
+	color: var(--color-primary);
+	border: none;
+	cursor: pointer;
 }

@@ -8,14 +8,14 @@ const data = [
   },
   {
     name: "My Game - Giulia",
-    gameUrl: "",
+    gameUrl: "https://m-giulia.github.io/my-game/",
     codeUrl: "https://github.com/m-giulia/my-game.git"
   },
   {
     name: "My Game - Mila!",
-    gameUrl: "",
-    codeUrl: "https://github.com/mila20242024/milagames"
-  },
+    gameUrl: "https://mila20242024.github.io/milagames/",
+    codeUrl: "https://github.com/mila20242024/milagames"},
+
   {
     name: " My name = arnol ",
     gameUrl: "",
@@ -75,8 +75,21 @@ const data = [
   },
   {
     name: "My Game - Christian",
+
     gameUrl: "https://christian95sp.github.io/game_Chri/",
     codeUrl: "https://github.com/Christian95Sp/game_Chri"
+  },
+  {
+    name: "My Game - Angelica",
+    gameUrl: "",
+    codeUrl: "https://github.com/Angycapuozzo/angelica-game.git" 
+  },
+  {
+    name: "My Game - Fabrizio",
+    gameUrl: "",
+    codeUrl: "https://github.com/Macrifabrizio99/My-game.git"
   }
-
 ]
+
+
+
