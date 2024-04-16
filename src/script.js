@@ -1,63 +1,4 @@
-/*const cartacontainer = document.getElementById("carta-container");
-const cardGame = document.getElementById('card-game');
 
-const link = document.createElement("a");
-
-data.forEach((object) => {
-  link.href = object.gameUrl;
-  link.innerText = object.name;
-  container.appendChild(link);
-});*/
-/*const newGameButton = document.getElementById('new-game');
-
-let carte = [];
-let selectedCarte = [];
-
-function createCarta(value) {
-  const carta = document.createElement('div');
-  carta.classList.add('card');
-  carta.addEventListener('click', selectCarta);
-
-  const content = document.createElement('div');
-  content.classList.add('content');
-  content.textContent = value;
-
-  carta.appendChild(content);
-  cartaContainer.appendChild(carta);
-
-  return carta;
-}
-
-function selectCarta() {
-  if (selectedCarte.length < 2) {
-    this.classList.add('visible');
-    selectedCarte.push(this);
-
-    if (selectedCarte.length === 2) {
-      if (selectedCarte[0].textContent === selectedCarte[1].textContent) {
-        selectedCarte.forEach(card => card.classList.add('disabled'));
-      }
-
-      selectedCarte = [];
-    }
-  }
-
-  if (cartaContainer.children.length === Array.from(cartaContainer.children).filter(carta => !carta.classList.contains('disabled')).length) {
-    alert('You win!');
-  }
-}
-
-function newGame() {
-  // Remove existing cards
-  cartaContainer.innerHTML = '';
-
-  // Create new cards
-  carta = Array.from({ length: 16 }, (_, i) => i + 1).map(value => createCarta(value));
-}
-
-newGameButton.addEventListener('click', newGame);
-
-newGame();*/
 let resetBtn = document.getElementById("reset");
 let scoreJoueur = document.getElementById("score-joueur");
 let scoreOrdinateur = document.getElementById("score-ordinateur");
@@ -114,7 +55,7 @@ const faireChoixOridnateur = () => {
 
 const verifierGagnant = (choixJoueur, choixOrdi) => {
   if (choixJoueur == choixOrdi) {
-    message.textContent = "Egalité !";
+    message.textContent = "Ugualità !";
     return;
   }
 
@@ -144,12 +85,12 @@ const verifierGagnant = (choixJoueur, choixOrdi) => {
 };
 
 const victoireOrdinateur = () => {
-  message.textContent = "L'ordinateur gagne...";
+  message.textContent = "Il computer vince...";
   scoreOrdinateur.textContent++;
 };
 
 const victoireJoueur = () => {
-  message.textContent = "Vous avez gagné ! :)";
+  message.textContent = "Hai vinto ! :)";
   scoreJoueur.textContent++;
 };
 
@@ -167,7 +108,7 @@ const preparerNouvelleManche = () => {
   ofeuilleBtn.classList.remove("active");
   ociseauxBtn.classList.remove("active");
 
-  message.textContent = "A vous de jouer !";
+  message.textContent = "Sta a te !";
 };
 
 nextBtn.addEventListener("click", preparerNouvelleManche);

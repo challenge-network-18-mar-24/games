@@ -35,14 +35,25 @@ body {
   border-radius: 15px;
 }
 
+.score h2 {
+  margin-bottom: 10px;
+}
+
+.score p {
+  margin-bottom: 10px;
+}
+
 #reset {
-  font-size: 12px;
-  grid-column: span 2;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
   cursor: pointer;
 }
 
 #reset:hover {
-  color: var(--action);
+  background-color: #0056b3;
 }
 
 .action {
@@ -122,4 +133,49 @@ body {
 
 .btn-ordi.active {
   background-color: var(--secondary);
+}
+
+@media (min-width: 768px) {
+  .score {
+    grid-template-columns: repeat(2, 200px);
+    gap: 20px;
+  }
+}
+
+
+
+/* For iPhone 6, 6s, 7, 8 and X */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+
+  /* Your CSS rules here */
+  .example-class {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+
+/* For iPhone 6 Plus, 6s Plus, 7 Plus, 8 Plus and XR */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+
+  /* Your CSS rules here */
+  .example-class {
+    background-color: blue;
+    color: white;
+    font-size: 24px;
+    padding: 15px;
+  }
+}
+
+/* For iPhone XS Max */
+@media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 3) {
+
+  /* Your CSS rules here */
+  .example-class {
+    background-color: green;
+    color: white;
+    font-size: 28px;
+    padding: 20px;
+  }
 }
