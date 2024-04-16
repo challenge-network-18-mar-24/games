@@ -80,7 +80,7 @@ const data = [
   },
   {
     name: "My Game - Angelica",
-    gameUrl: "",
+    gameUrl: "https://angycapuozzo.github.io/angelica-game/",
     codeUrl: "https://github.com/Angycapuozzo/angelica-game.git" 
   },
   {
