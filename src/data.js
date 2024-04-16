@@ -90,6 +90,11 @@ const data = [
     name: "My Game - Fabrizio",
     gameUrl: "",
     codeUrl: "https://github.com/Macrifabrizio99/My-game.git"
+  },
+  {
+    name: "My Game - Walter",
+    gameUrl: "https://walter-ladislao.github.io/game/",
+    codeUrl: "https://github.com/walter-ladislao/game.git"
   }
 ]
 
