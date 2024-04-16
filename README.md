@@ -1,3 +1,5 @@
+Link per la collezione dei giochi: https://challenge-network-18-mar-24.github.io/games
+
 # LISTA DEI GIOCHI DA CREARE
 
 ## GIOCHI FACILI
@@ -29,4 +31,13 @@ Il giocatore ha davanti a se 4 carte con contenuto nascosto. Clicca 2 carte e mo
 Se le due carte cliccate sono uguali, il click viene disabilitato su quelle carte. Vince quando tutte le carte sul tavolo sono disabilitate. 
 
 BONUS: aumentare il numero di carte (a 16 ad esempio) e il numero di giocatori possibili per round
+
+## GIOCHI DIFFICILI
+
+### Digita veloce
+
+Il giocatore riceve una parola ed un input dove digitare quella parola. Avrà a disposizione un minuto per digitare piu parole possibili.
+
+BONUS: aumentare il numero di giocatori che si alternano ogni minuto e tenere il punteggio di ciascuno
+
 
