@@ -1,0 +1,10 @@
+Carta, forbice, sasso
+Il giocatore clicca sui pulsanti carta, forbice o sasso ed il computer dice se aveva vinto rispetto alla figura
+selezionata per quel turno in maniera casuale.
+
+BONUS: creare la variante con lucertola e spock: https://it.wikipedia.org/wiki/Morra_cinese
+
+
+3 turni
+da fare con l'if
+farlo con le foto e i bottoni, come la lampadina.
