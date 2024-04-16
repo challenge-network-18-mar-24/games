@@ -13,6 +13,7 @@ const data = [
   },
   {
     name: "My Game - Mila!",
+
     gameUrl: "https://mila20242024.github.io/milagames/",
     codeUrl: "https://github.com/mila20242024/milagames"},
 
@@ -61,7 +62,8 @@ const data = [
   {
 
     name: "My Game - Sofia",
-    gameUrl: "",
+
+    gameUrl: "https://sofiaabou.github.io/game/",
     codeUrl: "https://github.com/SofiaAbou/game.git"
 
   },
