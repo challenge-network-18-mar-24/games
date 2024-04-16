@@ -1,4 +1,22 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
 #container {
 	display: flex;
-	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	justify-items: center;
+	gap: 200px;
+	height: 100vh;
+}
+
+#carousel {
+	display: flex;
 }
