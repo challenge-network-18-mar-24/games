@@ -3,9 +3,26 @@ const container = document.getElementById("carousel");
 const previousButton = document.getElementById("previousButton");
 const nextButton = document.getElementById("nextButton");
 
-const link = document.createElement("a");
+const current = document.getElementById("current");
 
 let currentIndex = 0;
+let currentLink;
+
+const onkeydown = (event) => {
+  if (event.code === "ArrowRight" && currentIndex < data.length - 1) {
+    changeGame(1)
+  } 
+
+  if (event.code === "ArrowLeft" && currentIndex > 0) {
+    changeGame(-1)
+  }
+
+  if (event.code === "Enter") {
+    window.open(currentLink, "_blank");
+  }
+};
+
+document.onkeydown = onkeydown;
 
 /*
 * La funzione ha un argomento next che sarà 
@@ -15,19 +32,21 @@ let currentIndex = 0;
 const changeGame = (next) => {
   currentIndex = currentIndex + next;
 
-  // Disabilita previousButton per il primo elemento
+  // Disabilita previousButton per il primo elemento e nextButton per l'ultimo
   if(currentIndex === 0) {
     previousButton.disabled = true;
-  }
-
-  // Disabilita nextButton per l'ultimo elemento
-  if(currentIndex === data-length - 1) {
+    previousButton.style.visibility = "hidden";
+  } else if(currentIndex === data.length - 1) {
     nextButton.disabled = true;
+    nextButton.style.visibility = "hidden";
+  } else {
+    previousButton.style.visibility = "visible";
+    nextButton.style.visibility = "visible";
   }
 
-  link.href = data[currentIndex].gameUrl;
-  link.innerText = data[currentIndex].name;
-  container.appendChild(link);
+  currentLink = data[currentIndex].gameUrl;
+  current.href = currentLink;
+  current.innerText = data[currentIndex].name;
 }
 
 changeGame(0);
