@@ -1,1 +1,0 @@
-let tentativi = 3;
