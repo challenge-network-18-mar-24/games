@@ -1,16 +1,19 @@
-const container = document.getElementById("carousel");
+const container = document.getElementById("container");
+const iframeGame = document.getElementById("iframeGame");
 
 const previousButton = document.getElementById("previousButton");
 const nextButton = document.getElementById("nextButton");
+const closeButton = document.getElementById("close-button");
 
-const current = document.getElementById("current");
+const currentGame = document.getElementById("currentGame");
+const currentCode = document.getElementById("currentCode");
 
 let currentIndex = 0;
-let currentLink;
+let currentGameLink;
 
 const onkeydown = (event) => {
   if (event.code === "ArrowRight" && currentIndex < data.length - 1) {
-    changeGame(1)
+    changeGame(1);
   } 
 
   if (event.code === "ArrowLeft" && currentIndex > 0) {
@@ -18,11 +21,35 @@ const onkeydown = (event) => {
   }
 
   if (event.code === "Enter") {
-    window.open(currentLink, "_blank");
+    openGame()
+  }
+
+  if (event.code === "Escape") {
+    exitGame()
   }
 };
 
 document.onkeydown = onkeydown;
+
+const openGame = () => {
+  iframeGame.style.position = "absolute";
+    iframeGame.style.top = "0";
+    iframeGame.style.left = "0";
+    iframeGame.style.width = "100%";
+    iframeGame.style.height = "100%";
+    iframeGame.style.marginTop = "0";
+    iframeGame.style.opacity = "1";
+    closeButton.style.display = "block";
+}
+
+const exitGame = () => {
+  closeButton.style.display = "none";
+    iframeGame.style.position = "relative";
+    iframeGame.style.marginTop = "40px";
+    iframeGame.style.width = "600px";
+    iframeGame.style.height = "400px";
+    iframeGame.style.opacity = "0.8";
+}
 
 /*
 * La funzione ha un argomento next che sarà 
@@ -44,9 +71,14 @@ const changeGame = (next) => {
     nextButton.style.visibility = "visible";
   }
 
-  currentLink = data[currentIndex].gameUrl;
-  current.href = currentLink;
-  current.innerText = data[currentIndex].name;
+  currentGameLink = data[currentIndex].gameUrl;
+  let currentCodeLink = data[currentIndex].codeUrl;
+
+  currentGame.href = currentGameLink;
+  iframeGame.src = currentGameLink;
+  currentGame.innerText = data[currentIndex].name;
+
+  currentCode.href = currentCodeLink
 }
 
 changeGame(0);

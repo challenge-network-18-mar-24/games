@@ -1,5 +1,5 @@
 :root {
-	--color-primary: #F5A303;
+	--color-primary: #36154B;
 }
 
 html, body {
@@ -10,6 +10,8 @@ html, body {
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
+
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 
 	color: var(--color-primary);
 	font-size: 21px;
@@ -24,31 +26,95 @@ a {
 	text-decoration: none;
 }
 
+#backgroundVideo {
+	position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+	z-index: -1;
+}
+
 #container {
 	display: flex;
-	align-content: center;
-	align-items: center;
+	flex-direction: column;
 	justify-content: center;
-	justify-items: center;
-	gap: 200px;
+	align-items: center;
 	height: 100vh;
-	background-image: url("https://images.template.net/106042/free-retro-arcade-gaming-background-kuipq.png");
-	background-size: cover;
-	padding-left: 500px;
+	width: 100%;
 }
 
 #carousel {
 	display: flex;
+	flex-direction: column;
+	gap: 20px;
 	font-size: 3rem;
-	width: 50%;
+	width: 100%;
 	text-align: center;
 	justify-content: center;
+	align-items: center;
+}
+
+#carouselPreview {
+	display: flex;
+	align-items: center;
+}
+
+#currentGame {
+	font-size: 4rem;
+}
+
+#currentCode {
+	font-size: 1rem;
 }
 
 .button {
-	font-size: 4rem;
+	font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 	background-color: transparent;
-	color: var(--color-primary);
 	border: none;
 	cursor: pointer;
+	color: var(--color-primary);
+}
+
+.arrow-button {
+	font-size: 10rem;
+}
+
+#close-button {
+	position: absolute;
+	font-size: 2rem;
+	right: 20px;
+	top: 20px;
+	display: none;
+	z-index: 20;
+}
+
+#iframeGame {
+	width: 600px;
+	height: 400px;
+	margin-top: 40px;
+	border: 2px solid white;
+	opacity: 0.8;
+	z-index: 10;
+}
+
+.font-medium {
+	font-size: 2rem;
+}
+
+.glow {
+	animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

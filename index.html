@@ -15,20 +15,25 @@
 </head>
 
 <body>
+	<video autoplay muted loop id="backgroundVideo">
+		<source
+			src="https://static.vecteezy.com/system/resources/previews/001/935/346/mp4/retro-futuristic-arcade-vintage-game-intro-loop-free-video.mp4"
+			type="video/mp4">
+	</video>
 	<div id="container">
-		<button 
-			class="button" 
-			id="previousButton" 
-			onclick="changeGame(-1)"
-		><</button>
+		<button id="close-button" onclick="exitGame()" class="button glow">EXIT GAME</button>
 		<div id="carousel">
-			<a id="current"></a>
+			<div id="carousel">
+				<div class="font-medium glow">PRESS ENTER TO PLAY</div>
+				<button id="currentGame" class="button" onclick="openGame()"></button>
+				<a id="currentCode" target="_blank">click here to see the code</a>
+				<div id="carouselPreview">
+					<button class="button arrow-button glow" id="previousButton" onclick="changeGame(-1)">&larr;</button>
+					<iframe id="iframeGame" name="iframeGame"></iframe>
+					<button class="button arrow-button glow" id="nextButton" onclick="changeGame(1)">&rarr;</button>
+				</div>
+			</div>
 		</div>
-		<button 
-			class="button" 
-			id="nextButton" 
-			onclick="changeGame(1)"
-		>></button>
 	</div>
 
 	<script src="./src/data.js"></script>
