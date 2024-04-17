@@ -67,7 +67,10 @@ const changeGame = (next) => {
     nextButton.disabled = true;
     nextButton.style.visibility = "hidden";
   } else {
+    previousButton.disabled = false;
     previousButton.style.visibility = "visible";
+
+    nextButton.disabled = false;
     nextButton.style.visibility = "visible";
   }
 
