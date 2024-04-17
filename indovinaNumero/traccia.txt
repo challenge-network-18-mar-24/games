@@ -1,4 +1,0 @@
-Indovina il numero
-Il giocatore inserisce un numero da 1 a 10 in un input, il computer dice se il numero è lo stesso che era stato selezionato per quel turno in maniera casuale.
-
-BONUS: aumentare il numero di partecipanti e dare la possibilita di scegliere numeri tra 1 e 100
