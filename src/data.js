@@ -19,7 +19,7 @@ const data = [
 
   {
     name: " My name = arnol ",
-    gameUrl: "",
+    gameUrl: "https://blonedl97.github.io/arnol.game/",
     codeUrl: "https://github.com/blonedl97/arnol.game"
 
   },
